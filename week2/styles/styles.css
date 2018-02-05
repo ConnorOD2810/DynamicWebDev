@@ -17,3 +17,29 @@ header, section, article, nav, aside, footer, div {
 #PageContent{
   border: 1px dashed red;
 }
+
+#SiteTitle{
+  text-align: right;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#SiteLogo{
+  float: left;
+  height: 170px;
+  width: 170px;
+}
+
+#SiteNavigation ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#SiteNavigation li{
+  display: inline;
+}
