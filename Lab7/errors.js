@@ -6,7 +6,7 @@ function main () {
 	a = 10;
 	b = 100;
 
-	b = + a b;
+	b = a + b;
 	c == a * b;
 
 	document.writeln(c);
